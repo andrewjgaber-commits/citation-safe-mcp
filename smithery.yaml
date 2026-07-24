@@ -1,0 +1,10 @@
+name: citation-safe
+title: Citation Safe
+description: Deterministic AI-hallucination catcher for legal briefs — verifies every citation against primary sources.
+category: legal
+tags: [legal, citations, verification, hallucination, courts]
+transport:
+  type: http
+  url: https://citationsafe.com/api/mcp
+docs: https://citationsafe.com/mcp
+homepage: https://citationsafe.com
