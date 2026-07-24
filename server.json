@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.andrewjgaber-commits/citation-safe",
+  "title": "Citation Safe",
+  "description": "Deterministic verification of legal citations - existence, quote-match, and proposition-support checks against primary sources (CourtListener, USCourts.gov). Not LLM guessing.",
+  "repository": {
+    "url": "https://github.com/andrewjgaber-commits/citation-safe-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://citationsafe.com/api/mcp"
+    }
+  ]
+}
